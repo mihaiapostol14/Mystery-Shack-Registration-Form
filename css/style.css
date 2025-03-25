@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100Vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/mystery_shack_bg.jpg");
+    background-repeat: repeat;
+    background-size: cover; 
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 20px;
+    /* background: rgb(47, 150, 150); */
+    backdrop-filter:  blur(18px);
+
+}
+
+.container .title {
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container .form-control{
+    background: transparent;
+    border: none;
+    outline: none;
+    border: solid rgba(255,255,255,0.1);
+}
+
+.container .form-control{
+    font-size: 16px;
+    color: rgb(255,255,255);
+}
+
+.form-control::placeholder{
+    color: rgb(255,255,255);
+}
+
+
+.container form label{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.title,
+form label{
+    color: rgb(255,255,255);
+}
