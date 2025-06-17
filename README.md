@@ -1,5 +1,8 @@
 # Mystery Shack Registration Form
 
+## Preview
+![preview](https://github.com/mihaiapostol14/Mystery-Shack-Registration-Form/blob/ca1aa7ab216c4cbd1522d18754b4d8e69b9e6add/assets/preview.png)
+
 ## Overview
 This project is a registration form built using the Bootstrap framework (version 5.3.3). The form is designed to collect user registration details and is styled using modern web technologies. The project is primarily composed of HTML, CSS, and JavaScript.
 
